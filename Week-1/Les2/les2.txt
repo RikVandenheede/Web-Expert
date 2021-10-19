@@ -1,0 +1,6 @@
+npm init -> maakt json file aan
+
+package-lock-sjon ->
+
+
+--title="Dune"

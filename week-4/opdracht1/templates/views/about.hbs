@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    {{>header}} <!-- een groter dan teken is voor het inalden van de snippet --> 
+    <p>deze pagina is gemaakt door: {{name}}</p> <!-- laadt de naam op -->
+    {{>footer}} <!-- in footer staat ook een naar gedefineerd, maar dit werkt als een soort blueprint -->
+</body>
+</html>

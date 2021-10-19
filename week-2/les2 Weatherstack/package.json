@@ -1,0 +1,15 @@
+{
+  "name": "les2-weatherstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_HTTP-request.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

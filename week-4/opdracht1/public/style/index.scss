@@ -1,0 +1,22 @@
+@import "./_componenets.scss";
+
+*{
+    @extend %reset;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 650px;
+    margin: auto;
+    color: #333333;
+    font-family: $mainfont;
+    header{
+        @extend %header
+    }
+    footer{
+        margin-top: auto;
+        @extend %footer;
+    }
+}
