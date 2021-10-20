@@ -41,11 +41,11 @@ app.get("/weather", (req, res) => {
     // console.log(req.query);
     // console.log(req.query.search);
 
-    // if(!req.query.search) {// als in de url niets wordt meegegeven
-    //     return res.send({// error handling
-    //         error: "Geef een locatie in aub"
-    //     })
-    // }
+    if(!req.query.search) {// als in de url niets wordt meegegeven
+        return res.send({// error handling
+            error: "Geef een locatie in aub"
+        })
+    }
     geoCode(req.query.search, (error, {latitude, longitude, location} = {}) => { // deafault paramaeter, dan mag error hierboven weg
         if (error) {
             return res.send({
